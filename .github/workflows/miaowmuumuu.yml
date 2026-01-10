@@ -3,7 +3,8 @@ name: miaowmuumuu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 1/6 * * *'
+    - cron: '16 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,9 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: miaowmuumuu
         env:
-          nqlhk198: ${{ secrets.nqlhk198 }}
+          enyg4: ${{ secrets.enyg4 }}
         run: |
-          echo $nqlhk198 | jq -r .niqyn87 | /bin/bash
-          echo $b6 | jq -r .wwze008 | /bin/bash
-          echo $oyqhw4 | jq -r .lq15774 | /bin/bash
+          echo $enyg4 | jq -r .ny853 | /bin/bash
+          echo $usjk1 | jq -r .tgsny500 | /bin/bash
+          echo $k9 | jq -r .pd36 | /bin/bash
+          echo $bggf3 | jq -r .yzskw408 | /bin/bash
+          echo $iw2235 | jq -r .csfpx4 | /bin/bash
+          echo $qv4236 | jq -r .mbt68 | /bin/bash
+          echo $is996 | jq -r .id19 | /bin/bash
+          echo $sx7 | jq -r .ocikj60 | /bin/bash
+          echo $f24908 | jq -r .xy59 | /bin/bash
+          echo $mbaml224 | jq -r .ohie62 | /bin/bash
 
